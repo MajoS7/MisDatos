@@ -1,0 +1,155 @@
+*{ padding: 0px; margin: 0px;}
+
+
+
+header h1{
+    display: flex;
+
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    margin-top: 3%;
+
+    font-size: 250%;
+}
+
+#FotoA{
+    width: 100%;
+    border-radius: 100%;
+    
+    
+}
+
+
+.sombra {
+    width: 100%;
+    height: 100%;
+
+    
+ }
+
+.sombra::after{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    content:'';
+    background-color:blueviolet;
+    width: 100%;
+    height: 100%;
+    filter: blur(20px);
+    border-radius: 100%;
+    z-index: -1;
+    
+}
+.prueba{
+width: 20%;
+height: 20%;
+position: relative;
+left: 40%;
+top:20vh;
+}
+.Datos{
+    background-color:#3e6edd;
+    color: white;
+    display: flex;
+
+    font-size: 200%;
+    align-items: flex-end;
+    
+    justify-content: center;
+
+    padding: 25vh 0vh 10vh ;
+    font-size: 210%;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #e7464b;
+}
+
+footer img{
+    width: 4%;
+    padding: 1%;
+}
+
+@media screen and (max-width: 320px) and (max-width: 420px){
+    header h1{
+        height: 100%;
+        max-height: 800px;
+        font-size: 15px;
+    }
+
+    .prueba{
+        width: 20%;
+        height: 20%;
+        position: relative;
+        left: 40%;
+        top:7vh;
+    }
+    
+    .Datos{
+        
+        height: 40%;
+        font-size: 15px;
+        padding: 8vh 6vh 5vh;
+    }
+
+    
+}
+
+@media screen and (max-width: 768px){
+    header h1{
+        height: 100%;
+        max-height: 800px;
+        font-size: 35px;
+    }
+
+    .prueba{
+        width: 20%;
+        height: 20%;
+        position: relative;
+        left: 40%;
+        top:8vh;
+    }
+    
+    .Datos{
+        
+        height: 40%;
+        font-size: 35px;
+        padding: 10vh 6vh 5vh;
+    }
+
+    
+}
+
+@media screen and (max-width: 1024px){
+    header h1{
+        height: 100%;
+        max-height: 800px;
+        font-size: 35px;
+    }
+
+    .prueba{
+        width: 20%;
+        height: 20%;
+        position: relative;
+        left: 40%;
+        top:8vh;
+    }
+    
+    .Datos{
+        
+        height: 40%;
+        font-size: 35px;
+        padding: 10vh 6vh 5vh;
+    }
+
+    
+}
+
+
+
+
+
+
