@@ -98,11 +98,11 @@ footer img{
     
 }
 
-@media screen and (max-width: 420px){
+@media screen and (max-width: 768px){
     header h1{
         height: 100%;
         max-height: 800px;
-        font-size: 15px;
+        font-size: 35px;
     }
 
     .prueba{
@@ -110,14 +110,39 @@ footer img{
         height: 20%;
         position: relative;
         left: 40%;
-        top:7vh;
+        top:8vh;
     }
     
     .Datos{
         
         height: 40%;
-        font-size: 15px;
-        padding: 8vh 6vh 5vh;
+        font-size: 35px;
+        padding: 10vh 6vh 5vh;
+    }
+
+    
+}
+
+@media screen and (max-width: 1024px){
+    header h1{
+        height: 100%;
+        max-height: 800px;
+        font-size: 35px;
+    }
+
+    .prueba{
+        width: 20%;
+        height: 20%;
+        position: relative;
+        left: 40%;
+        top:8vh;
+    }
+    
+    .Datos{
+        
+        height: 40%;
+        font-size: 35px;
+        padding: 10vh 6vh 5vh;
     }
 
     
