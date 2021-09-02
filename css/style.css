@@ -3,26 +3,29 @@
 
 header h1{
     display: flex;
-    align-items: center;
+
     justify-content: center;
-    height: 20vh;
-    /*font-size: 250%;*/
+    position: absolute;
+    width: 100%;
+    margin-top: 3%;
+
+    font-size: 250%;
 }
 
 #FotoA{
     width: 100%;
     border-radius: 100%;
-    position: relative;
-    z-index: 1;
+    
+    
 }
 
 
 
 .sombra {
-    width: 20%;
-    height: 20%;
-    position: relative;
+    width: 100%;
+    height: 100%;
 
+    
  }
 
 .sombra::after{
@@ -35,12 +38,31 @@ header h1{
     height: 100%;
     filter: blur(20px);
     border-radius: 100%;
+    z-index: -1;
     
+}
+.prueba{
+width: 20%;
+height: 20%;
+position: relative;
+left: 40%;
+top:20vh;
 }
 .Datos{
     background-color:#3e6edd;
     color: white;
+    display: flex;
+
+    font-size: 200%;
+    align-items: flex-end;
+    height: 50vh;
+    justify-content: center;
+    padding-bottom: 10vh;
+    font-size: xx-large;
 }
+
+
+
 
 
 
