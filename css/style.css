@@ -1,0 +1,46 @@
+*{ padding: 0px; margin: 0px;}
+
+
+header h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    /*font-size: 250%;*/
+}
+
+#FotoA{
+    width: 100%;
+    border-radius: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.sombra {
+    width: 20%;
+    height: 20%;
+    position: relative;
+
+ }
+
+.sombra::after{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    content:'';
+    background-color:blueviolet;
+    width: 100%;
+    height: 100%;
+    filter: blur(20px);
+    border-radius: 100%;
+    
+}
+.Datos{
+    background-color:#3e6edd;
+    color: white;
+}
+
+
+
