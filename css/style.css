@@ -1,6 +1,7 @@
 *{ padding: 0px; margin: 0px;}
 
 
+
 header h1{
     display: flex;
 
@@ -58,10 +59,19 @@ top:20vh;
     height: 50vh;
     justify-content: center;
     padding-bottom: 10vh;
-    font-size: xx-large;
+    font-size: 210%;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #e7464b;
+}
 
+footer img{
+    width: 4%;
+    padding: 1%;
+}
 
 
 
